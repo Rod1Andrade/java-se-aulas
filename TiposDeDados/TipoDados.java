@@ -35,5 +35,13 @@ public class TipoDados {
         // Receba dois numeros a e b.
         // Processar em todas as operacoes artimeticas (+, -, /, *).
         // Saida com os resutaldos
+
+        System.out.print("Digite o primeiro numero: ");
+        int numero1 = entrada.nextInt();
+
+        System.out.print("Digite o segundo numero: ");
+        int numero2 = entrada.nextInt();
+
+        System.out.println("A soma de " + numero1 + " com " + numero2 + " = " + (numero1 + numero2));
     }
 }
